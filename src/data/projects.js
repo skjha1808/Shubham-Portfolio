@@ -1,19 +1,36 @@
+import edusafe360Image from '../assets/edusafe-360.png'
+
 const projects = [
   {
     title: 'Placement Tracker',
+    image: null,
     description:
-      'A MERN-stack placement management system that helps students track job applications, with role-based access, resume management, notifications, and an AI-powered resume analyzer.',
+      'A MERN-stack placement management system designed to help students manage placement activities, with role-based access, resume management, notifications, and an AI-powered resume analyzer.',
     techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT'],
-    github: '#',
-    live: '#',
+    highlights: [
+      'JWT-based role-based access control',
+      'REST APIs for placement management',
+      'Resume upload and management',
+      'AI-powered resume analysis',
+    ],
+    github: 'https://github.com/skjha1808/Placement-Tracker',
+    live: 'https://placement-tracker-skjha-dev.vercel.app/',
   },
   {
     title: 'EduSafe-360',
+    image: edusafe360Image,
     description:
-      'A student safety platform with dual-role authentication, real-time campus tracking, geofencing alerts, emergency routing, a safety chatbot, weather and location risk lookup, and automated email alerts.',
+      'A student safety platform built around real-time campus monitoring, emergency assistance, risk awareness, and automated communication.',
     techStack: ['Node.js', 'Express.js', 'MongoDB', 'Firebase', 'EJS'],
-    github: '#',
-    live: '#',
+    highlights: [
+      'Real-time campus tracking with Firebase',
+      'Geofencing alerts and emergency routing',
+      'Rule-based safety chatbot',
+      'Weather and location risk lookup',
+      'Automated email alerts',
+    ],
+    github: 'https://github.com/skjha1808/EduSafe-360',
+    live: 'https://edusafe-360.onrender.com/',
   },
 ]
 
