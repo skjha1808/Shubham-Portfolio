@@ -1,9 +1,10 @@
+import placementTrackerImage from '../assets/placement-tracker.png'
 import edusafe360Image from '../assets/edusafe-360.png'
 
 const projects = [
   {
     title: 'Placement Tracker',
-    image: null,
+    image: placementTrackerImage,
     description:
       'A MERN-stack placement management system designed to help students manage placement activities, with role-based access, resume management, notifications, and an AI-powered resume analyzer.',
     techStack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT'],
